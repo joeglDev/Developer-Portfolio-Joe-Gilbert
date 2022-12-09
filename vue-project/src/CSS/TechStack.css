@@ -9,5 +9,53 @@
 }
 
 .techstack__section__grid__container {
+    position: relative;
     display: grid;
+    list-style: none;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(auto-fill, 18%);
+    padding-left: 0;
+    margin-left: 8rem;
+    margin-right: 5rem;
+}
+
+.grid__item__container {
+    width:100%;
+}
+
+.grid__item__container:hover {
+scale: 1.25;
+}
+
+.grid__item__img {
+    position: relative;
+    left: 4.5vw;
+    width: 40%;
+    height: auto;
+}
+
+.grid__item__name {
+font-weight: bold;
+text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .techstack__section {
+        top: 0;
+        margin-top: 2rem;
+    }
+
+    .techstack__section__grid__container {
+        grid-gap: 1vw;
+        grid-template-columns: repeat(auto-fill, 20%);
+        margin: 2rem 0 0 4rem;
+    }
+
+    .grid__item__img {
+        width: 60%;
+    }
+
+    .grid__item__name {
+        font-size: 2.5vw;
+        }
 }
