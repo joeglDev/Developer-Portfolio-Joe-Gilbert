@@ -8,4 +8,4 @@ This website was built using Vue 3 : Compositional API.
 
 ## Versions
 
-- Vue: 
+- Vue: 3.2.45
