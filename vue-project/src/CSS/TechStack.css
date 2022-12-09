@@ -1,0 +1,13 @@
+.techstack__section {
+    position: relative;
+    top: -8rem;
+}
+
+.techstack__section__h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.techstack__section__grid__container {
+    display: grid;
+}

@@ -1,10 +1,9 @@
 .header__intro__section {
-    z-index: 1;
     margin: 2rem;
     margin-top: 5rem;
     background: no-repeat 10% 90% url(../assets/background_green_2.jpg);
     background-size: 80%;
-    margin-bottom: 1vh;
+    margin-bottom: 0.25vh;
 }
 
 .about__grid__container {

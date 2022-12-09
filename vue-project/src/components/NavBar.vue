@@ -7,7 +7,7 @@
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">My projects</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Experience and Education</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a target="_blank" href="https://www.dropbox.com/s/x2in4iz3di30gej/2022-11-CV-JG-V12.pdf?dl=0"

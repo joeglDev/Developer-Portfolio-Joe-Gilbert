@@ -1,4 +1,10 @@
 /*Navigation bar*/
+Nav {
+  top: 0;
+  width: 100%;
+z-index: 500;
+position: fixed;
+}
 
 Nav ul {
   list-style-type: none;
@@ -9,9 +15,6 @@ Nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #dcf3ff;
-  /*#333 */
-  position: fixed;
-  top: 0;
   width: 100%;
 }
 
