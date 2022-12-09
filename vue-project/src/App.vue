@@ -5,9 +5,12 @@ import About from './components/About.vue';
 </script>
 
 <template>
- <NavBar></NavBar>
- <About></About>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,800,900" rel="stylesheet">
+    <NavBar></NavBar>
+    <About></About>
 </template>
 
-<style>@import './CSS/App.css'</style>
+<style>
+@import './CSS/App.css'
+</style>
 
