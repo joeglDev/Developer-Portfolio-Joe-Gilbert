@@ -3,7 +3,7 @@ import {techStackArr} from '../../data';
 </script>
 
 <template>
-    <section class="techstack__section">
+    <section class="techstack__section" id="tech">
         <h2 class="techstack__section__h2">Technologies</h2>
         <div class="techstack__section__grid__container">
             <ul v-for="i in techStackArr">
