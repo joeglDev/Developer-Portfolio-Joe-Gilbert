@@ -2,11 +2,9 @@
 const funFactsArr = ["My current hair colour is pink.", "I really love the colours of Trans Pennine Express trains (2022).", "Some of my favourite discography by the Japanese pop band 'Perfume' is 'Future Pop' or 'Triangle'."];
 
 const changeHeader = (event: Event) => {
-    console.log("clicked");
     const heading = document.getElementsByClassName("header__intro__h1")[0];
     const randomNumber = Math.floor(Math.random() * (funFactsArr.length));
     heading.innerHTML = funFactsArr[randomNumber];
-    console.log(randomNumber)
 };
 </script>
 
