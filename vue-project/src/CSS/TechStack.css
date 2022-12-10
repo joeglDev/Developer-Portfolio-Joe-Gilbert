@@ -1,6 +1,7 @@
 .techstack__section {
     position: relative;
     top: -8rem;
+    font-weight: bold;
 }
 
 .techstack__section__h2 {
@@ -20,11 +21,11 @@
 }
 
 .grid__item__container {
-    width:100%;
+    width: 100%;
 }
 
 .grid__item__container:hover {
-scale: 1.25;
+    scale: 1.25;
 }
 
 .grid__item__img {
@@ -35,9 +36,40 @@ scale: 1.25;
 }
 
 .grid__item__name {
-font-weight: bold;
-text-align: center;
+    font-weight: bold;
+    text-align: center;
 }
+
+.techstack__section__btn__container {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.techstack__section p {
+    text-align: center;
+    margin: 2rem;
+}
+
+.techstack__section__btn {
+    border: none;
+    background-color: #dcf3ff;
+    font-weight: bold;
+    width: 10%;
+    height: 4rem;
+    margin: 0.1vw;
+}
+
+.clicked {
+    background-color: rgb(55, 110, 230);
+    color: white;
+}
+
+.techstack__section__btn:hover {
+    background-color: rgb(55, 110, 230);
+    color: white;
+}
+
 
 @media only screen and (max-width: 600px) {
     .techstack__section {
@@ -57,5 +89,5 @@ text-align: center;
 
     .grid__item__name {
         font-size: 2.5vw;
-        }
+    }
 }
