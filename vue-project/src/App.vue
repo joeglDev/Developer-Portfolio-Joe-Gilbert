@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue';
 import About from './components/About.vue';
 import TechStack from './components/TechStack.vue';
+import ProjectGrid from './components/ProjectGrid.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import TechStack from './components/TechStack.vue';
     <NavBar></NavBar>
     <About></About>
     <TechStack></TechStack>
+    <ProjectGrid></ProjectGrid>
 </template>
 
 <style>
