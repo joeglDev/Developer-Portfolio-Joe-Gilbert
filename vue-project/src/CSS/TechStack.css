@@ -2,6 +2,8 @@
     position: relative;
     top: -8rem;
     font-weight: bold;
+    background: no-repeat 50% 50% url(../assets/background_purple.jpg);
+    background-size: 60%;
 }
 
 .techstack__section__h2 {
@@ -75,6 +77,8 @@
     .techstack__section {
         top: 0;
         margin-top: 2rem;
+        background: no-repeat 50% -5% url(../assets/background_purple.jpg);
+        background-size: 100%;
     }
 
     .techstack__section__grid__container {
@@ -86,6 +90,7 @@
     .grid__item__img {
         width: 60%;
         margin-left: 10%;
+        /* this var is causing some out of bounds slippage*/
     }
 
     .grid__item__name {
