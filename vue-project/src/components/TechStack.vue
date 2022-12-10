@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { techStackArr } from '../../data';
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 //reactive state
 let filteredTechStackArr = ref(techStackArr);
@@ -11,6 +11,7 @@ const filterTechStack = (input: string) => {
         return input === "all" ? item : item.type === input ? item : null
     })
 };
+
 
 const changeClickedButtonClass = (input: string) => {
     const buttons = document.getElementsByClassName("techstack__section__btn");
