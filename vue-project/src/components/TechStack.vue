@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { techStackArr } from '../../data';
+import {ref} from 'vue';
 //create editable array from import
-let filteredTechStackArr = techStackArr.filter((i) => {
-    if (i.type) {return i}});
+let filteredTechStackArr = ref(techStackArr);
+
+    
 /*
     //funct to apply diff filters and edit above
     const selector = 'front';
@@ -11,6 +13,10 @@ let filteredTechStackArr = techStackArr.filter((i) => {
 
 
 });
+
+const silly = () => {
+        filteredTechStackArr.value = techStackArr.slice(0, 4);
+    }
 */
 </script>
 
