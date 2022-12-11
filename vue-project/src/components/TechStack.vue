@@ -30,6 +30,9 @@ const changeClickedButtonClass = (input: string) => {
             <button id="all" type="button" class="techstack__section__btn clicked"
                 aria-label="click this button to filter technologies to all technologies"
                 @click="filterTechStack('all')">All</button>
+                <button id="language" type="button" class="techstack__section__btn"
+                aria-label="click this button to filter technologies to include only languages"
+                @click="filterTechStack('language')">Language</button>
             <button id="front" type="button" class="techstack__section__btn"
                 aria-label="click this button to filter technologies to include only technologies of type: front end"
                 @click="filterTechStack('front')">Front-End</button>
