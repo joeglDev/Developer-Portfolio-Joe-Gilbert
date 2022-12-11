@@ -20,6 +20,28 @@
     color: white;
 }
 
+.grid__item__div__image__container {
+    width: 10rem;
+    height: 10rem;
+}
+
+/* image imports */
+.character {
+    background: no-repeat 50% 50% url(../assets//project_images/character_portfolio.jpg);
+    background-size: 100%;
+}
+
+.portfolio {
+    background: no-repeat 50% 50% url(../assets//project_images/developer_portfolio.png);
+    background-size: 100%;
+}
+
+.jsServer {
+    background: no-repeat 50% 50% url(../assets//project_images/js_server.png);
+    background-size: 100%;
+}
+
+
 @media only screen and (max-width: 600px) { 
     .Project__section__btn  {
         width: 40%;

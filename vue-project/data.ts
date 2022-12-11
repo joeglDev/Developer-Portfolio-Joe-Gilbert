@@ -91,33 +91,33 @@ export const techStackArr: techStackObject[] = [
 export const projectsArr: projectObject[] = [
   {
     name: "Character Portfolio",
-    imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     stack: ["TypeScript", "Node", "Express", "React", "mongoDB", "Jest", "CSS"],
     status: "Work In Progress",
     codeURL: "https://github.com/joeglDev/WIP-Character-portfolio",
     liveURL: "https://keen-dodol-db9041.netlify.app/",
     description: `A React with Typescript full-stack website served by a Node-Express.js API. This service allows a user to display their fictional characters and their unique details to the world. I believe that it will be useful for distict internet communities such as fandoms, D&D players, furries and indy video game developers. `,
+    imageClass: "character",
   },
   {
     name: "NC news API server",
-    imageURL:
-      "https://upload.wikimedia.org/wikipedia/commons/7/73/Javascript-736400_960_720.png",
     stack: ["JavaScript", "Node", "Express", "Postgres SQL", "Jest"],
     status: "Finished",
     codeURL: "https://github.com/joeglDev/Northcoders-backend-project-JsServer",
     liveURL: "",
     description:
       "A Node - Express.js API server connecting a Postgres SQL database to a React front-end. This project was created according to the principles of using Test Driven Development in Jest.",
+      imageClass: "jsServer"
   },
   {
-    name: 'My Developer Portfolio',
-       imageURL: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg',
-       stack: ['TypeScript', 'Vue', 'CSS'],
-       status: 'Finished',
-       codeURL: 'https://github.com/joeglDev/Developer-Portfolio-Joe-Gilbert',
-       liveURL: "",
-       description: 'My Developer Portfolio. I hope that you find it useful! This website was built using TypeScript with the Vue JavaScript framework.'
-   }
+    name: "My Developer Portfolio",
+    stack: ["TypeScript", "Vue", "CSS"],
+    status: "Finished",
+    codeURL: "https://github.com/joeglDev/Developer-Portfolio-Joe-Gilbert",
+    liveURL: "",
+    description:
+      "My Developer Portfolio. I hope that you find it useful! This website was built using TypeScript with the Vue JavaScript framework.",
+      imageClass: "portfolio"
+  },
 ];
 
 /*

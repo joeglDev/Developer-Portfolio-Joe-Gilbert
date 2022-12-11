@@ -6,10 +6,10 @@ export interface techStackObject {
 
 export interface projectObject {
     name: string;
-    imageURL: string;
     stack: string[];
     status: 'Work In Progress' | 'Finished';
     codeURL: string;
     liveURL: string;
     description: string;
+    imageClass: 'character' | `jsServer` | 'portfolio';
 }

@@ -7,12 +7,12 @@ import Project from '../components/Project.vue';
 
 const defaultObject = {
     name: "",
-    imageURL: "",
     stack: [""],
     status: "",
     codeURL: "",
     liveURL: "false",
     description: "",
+    imageClass: ""
 };
 
 let setProject = ref(defaultObject);
@@ -32,14 +32,13 @@ const selectProjectProp = (name: string) => {
     <section id="projects" class="ProjectGrid__section">
         <h2 class="ProjectGrid__section__h2">My Projects</h2>
         <p class="ProjectGrid__section__p">Click a project for more information</p>
-        <Project :name="setProject.name" :status="setProject.status" :description="setProject.description"
-            :stack="setProject.stack" :imageURL="setProject.imageURL" :codeURL="setProject.codeURL"
-            :liveURL="setProject.liveURL" :key="setProject.name"></Project>
+        <Project :imageClass="setProject.imageClass" :name="setProject.name" :status="setProject.status"
+            :description="setProject.description" :stack="setProject.stack" 
+            :codeURL="setProject.codeURL" :liveURL="setProject.liveURL" :key="setProject.name"></Project>
         <ul class="ProjectGrid__section__grid__container">
             <li v-bind:class="`ProjectGrid__section__grid__item`" v-bind:aria-label="`Project: ${i.name}`"
                 v-for="i in projectsArr" @click="selectProjectProp(i.name)">
-
-                <img class="grid__item__img" v-bind:src="`${i.imageURL}`" v-bind:alt="`${i.description}`">
+                <div :class="`grid__item__div__image__container ${i.imageClass}`"></div>
                 <p class="grid__item__name">{{ i.name }}</p>
 
             </li>

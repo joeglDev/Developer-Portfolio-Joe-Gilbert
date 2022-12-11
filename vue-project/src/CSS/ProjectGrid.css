@@ -34,12 +34,7 @@
     color: white;
 }
 
-.grid__item__img {
-    position: relative;
-    margin-right: 8vw;
-    width: 40%;
-    height: auto;
-}
+
 
 .grid__item__name {
     font-weight: bold;
@@ -49,6 +44,34 @@
 .ProjectGrid__section__p {
     margin: 5vh;
 }
+
+.Project__section__grid__container {
+    display: grid;
+}
+
+/*image css */
+.grid__item__div__image__container {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5.5vw;
+}
+
+/* image imports */
+.character {
+    background: no-repeat 50% 50% url(../assets//project_images/character_portfolio.jpg);
+    background-size: 100%;
+}
+
+.portfolio {
+    background: no-repeat 50% 50% url(../assets//project_images/developer_portfolio.png);
+    background-size: 100%;
+}
+
+.jsServer {
+    background: no-repeat 50% 50% url(../assets//project_images/js_server.png);
+    background-size: 100%;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -71,6 +94,12 @@
 
     .grid__item__img {
         left: -7%;
+    }
+
+    .grid__item__div__image__container {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 1vw;
     }
 }
 
