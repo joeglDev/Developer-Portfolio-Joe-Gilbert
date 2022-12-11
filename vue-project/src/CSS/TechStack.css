@@ -84,12 +84,12 @@
     .techstack__section__grid__container {
         grid-gap: 1vw;
         grid-template-columns: repeat(auto-fill, 32%);
-        margin: auto;
+        margin: auto auto auto 4vw;
     }
 
     .grid__item__img {
         width: 60%;
-        margin-left: 10%;
+        margin-left: 30%;
         /* this var is causing some out of bounds slippage*/
     }
 

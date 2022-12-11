@@ -1,0 +1,27 @@
+.Project__section {
+
+    padding: 1vw;
+}
+
+.ProjectGrid__section__h2 {
+    font-size: 2vw;
+}
+
+.Project__section__btn {
+    border: none;
+    background-color: #D6F0FF;
+    font-weight: bold;
+    width: 20%;
+    height: 4rem;
+}
+
+.Project__section__btn:hover {
+    background-color: rgb(55, 110, 230);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) { 
+    .Project__section__btn  {
+        width: 40%;
+    }
+}
