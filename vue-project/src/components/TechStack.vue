@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { techStackArr } from '../../data';
-import { onMounted, ref } from 'vue';
+import {  ref } from 'vue';
 
 //reactive state
 let filteredTechStackArr = ref(techStackArr);
