@@ -10,6 +10,6 @@ export interface projectObject {
     stack: string[];
     status: 'Work In Progress' | 'Finished';
     codeURL: string;
-    liveURL: boolean | string;
+    liveURL: string;
     description: string;
 }

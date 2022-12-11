@@ -105,7 +105,7 @@ export const projectsArr: projectObject[] = [
     stack: ["JavaScript", "Node", "Express", "Postgres SQL", "Jest"],
     status: "Finished",
     codeURL: "https://github.com/joeglDev/Northcoders-backend-project-JsServer",
-    liveURL: false,
+    liveURL: "",
     description:
       "A Node - Express.js API server connecting a Postgres SQL database to a React front-end. This project was created according to the principles of using Test Driven Development in Jest.",
   },
@@ -115,7 +115,7 @@ export const projectsArr: projectObject[] = [
        stack: ['TypeScript', 'Vue', 'CSS'],
        status: 'Finished',
        codeURL: 'https://github.com/joeglDev/Developer-Portfolio-Joe-Gilbert',
-       liveURL: false,
+       liveURL: "",
        description: 'My Developer Portfolio. I hope that you find it useful! This website was built using TypeScript with the Vue JavaScript framework.'
    }
 ];
