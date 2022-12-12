@@ -51,8 +51,10 @@ const removeSection = () => {
                 <li>Name: {{ name }}</li>
                 <li v-if="liveURL !== ''"><a target="_blank" :href="`${liveURL}`">Click here for the live website</a>
                 </li>
+              
                 <li><a target="_blank" :href="`${codeURL}`">Click here to view the code on GitHub</a></li>
-                <li>Status: {{ status }}</li>
+                
+                <li class="grid__item__list  status">Status: {{ status }}</li>
                 <li>{{ description }}</li>
             </ul>
             <div :class="` project__grid__item__img  project__${imageClass}`"></div>
