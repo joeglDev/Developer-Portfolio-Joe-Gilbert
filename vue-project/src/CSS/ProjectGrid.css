@@ -51,8 +51,9 @@
 
 /*image css */
 .grid__item__div__image__container {
+    position: static;
     width: 20rem;
-    height: 20rem;
+    height: 10rem;
     margin-left: 2.75vw;
 }
 
