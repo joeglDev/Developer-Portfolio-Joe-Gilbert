@@ -9,36 +9,61 @@
 
 .Project__section__btn {
     border: none;
-    background-color: #D6F0FF;
+    background-color: #EBEBEB;
     font-weight: bold;
     width: 20%;
     height: 4rem;
+    margin:auto;
 }
 
 .Project__section__btn:hover {
     background-color: rgb(55, 110, 230);
     color: white;
+} 
+
+.Project__section__grid__container {
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "list img img"
+    "list img img"
+    "desc desc desc";
+}
+
+.project__grid__item__img {
+    background-color: blue;
+   
+    
 }
 
 .grid__item__div__image__container {
-    width: 10rem;
-    height: 10rem;
+  align-self: right;
+    height: 66%;
+    grid-area: img;
 }
 
-/* image imports */
-.character {
-    background: no-repeat 50% 50% url(../assets//project_images/character_portfolio.jpg);
-    background-size: 100%;
+.grid__item__list {
+  
+grid-area: list;
 }
 
-.portfolio {
-    background: no-repeat 50% 50% url(../assets//project_images/developer_portfolio.png);
-    background-size: 100%;
+.grid__item__p {
+grid-area: desc
 }
 
-.jsServer {
-    background: no-repeat 50% 50% url(../assets//project_images/js_server.png);
-    background-size: 100%;
+/*image */
+.project__character {
+    /*background: no-repeat center url(../assets//project_images/character_portfolio.jpg);*/
+    background-size: cover;
+}
+
+.project__portfolio {
+    background: no-repeat center url(../assets//project_images/developer_portfolio.png);
+    background-size: cover;
+}
+
+.project__jsServer {
+    background: no-repeat center url(../assets//project_images/js_server.png);
+    background-size: cover;
 }
 
 

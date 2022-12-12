@@ -51,24 +51,24 @@
 
 /*image css */
 .grid__item__div__image__container {
-    width: 15rem;
-    height: 15rem;
-    margin-left: 5.5vw;
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2.75vw;
 }
 
 /* image imports */
 .character {
-    background: no-repeat 50% 50% url(../assets//project_images/character_portfolio.jpg);
+    background: no-repeat center url(../assets//project_images/character_portfolio.jpg);
     background-size: 100%;
 }
 
 .portfolio {
-    background: no-repeat 50% 50% url(../assets//project_images/developer_portfolio.png);
+    background: no-repeat center url(../assets//project_images/developer_portfolio.png);
     background-size: 100%;
 }
 
 .jsServer {
-    background: no-repeat 50% 50% url(../assets//project_images/js_server.png);
+    background: no-repeat center url(../assets//project_images/js_server.png);
     background-size: 100%;
 }
 
