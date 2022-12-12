@@ -23,7 +23,7 @@
 
 .Project__section__grid__container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    
     grid-gap: 5vw;
     grid-template-areas:
         "list img img"
@@ -49,11 +49,9 @@
     list-style: none;
     align-items: center;
     justify-content: center;
-
 }
 
 /*image */
-
 .project__grid__item__img {
     background-color: blue;
     width: 100%;
@@ -62,7 +60,6 @@
     grid-area: img;
     position: static;
     margin-right: 50vw;
-
 }
 
 .project__character {
@@ -87,7 +84,6 @@
 
 .flex__item__img {
     position: relative;
-    
     width: 40%;
     height: auto;
 }
@@ -99,5 +95,8 @@
 
     .Project__section__grid__container {
         display: block;
+        grid-template-columns: none;
+        grid-template-rows: 3fr 2fr; 
     }
 }
+

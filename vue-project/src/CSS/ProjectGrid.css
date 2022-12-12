@@ -100,7 +100,50 @@
     .grid__item__div__image__container {
         width: 15rem;
         height: 15rem;
-        margin-left: 1vw;
+        margin-left: 6vw;
     }
 }
 
+/* Project media query here*/
+@media only screen and (max-width: 600px) {
+
+   
+    .Project__section__btn {
+        width: 40%;
+    }
+
+    .Project__section__grid__container {
+        display: block;
+        
+    }
+
+    .grid__item__list {
+        min-width: 80%;
+        margin: auto 20% auto 3%;
+    }
+
+    .flex__item__img {
+        max-height: 40vh;
+        min-width: 100%;
+       
+    }
+
+    .project__grid__item__img {
+        margin: auto auto auto 10vw;
+        min-height: 50vw;
+        max-width: 80%;
+    }
+
+    .grid__item__stack__container {
+        margin-right: 7vw;
+    }
+
+    .flex__item__name {
+        font-size: 2vw;
+    }
+
+    .flex__item__li {
+        margin: 3vw;
+    }
+    
+}
