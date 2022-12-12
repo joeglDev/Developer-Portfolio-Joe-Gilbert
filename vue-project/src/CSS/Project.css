@@ -13,7 +13,7 @@
     font-weight: bold;
     width: 20%;
     height: 4rem;
-    margin:auto;
+    margin:auto auto 2.5vw auto;
 }
 
 .Project__section__btn:hover {
@@ -22,37 +22,41 @@
 } 
 
 .Project__section__grid__container {
+    display: grid;
     grid-template-columns: auto auto auto;
+    grid-gap: 5vw;
     grid-template-areas: 
     "list img img"
     "list img img"
-    "desc desc desc";
+    "stack stack stack";
 }
 
 .project__grid__item__img {
     background-color: blue;
-   
+   width: 100%;
+   min-height: 50vh;
+   grid-area: img;
+   position: static;
+   margin-right: 50vw;
     
 }
 
-.grid__item__div__image__container {
-  align-self: right;
-    height: 66%;
-    grid-area: img;
-}
+
 
 .grid__item__list {
-  
+    max-width: 100%;
 grid-area: list;
 }
 
-.grid__item__p {
-grid-area: desc
+.grid__item__stack__container {
+grid-area: stack;
+display: flex;
+
 }
 
 /*image */
 .project__character {
-    /*background: no-repeat center url(../assets//project_images/character_portfolio.jpg);*/
+    background: no-repeat center url(../assets//project_images/character_portfolio.jpg);
     background-size: cover;
 }
 
@@ -66,9 +70,24 @@ grid-area: desc
     background-size: cover;
 }
 
+/* Stack */
+.flex__item__li {
+    width: 80%;
+}
+
+.flex__item__img {
+    position: relative;
+    left: 4.5vw;
+    width: 40%;
+    height: auto;
+}
 
 @media only screen and (max-width: 600px) { 
     .Project__section__btn  {
         width: 40%;
+    }
+
+    .Project__section__grid__container {
+        display: block;
     }
 }

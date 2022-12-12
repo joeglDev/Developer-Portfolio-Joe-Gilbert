@@ -91,7 +91,7 @@ export const techStackArr: techStackObject[] = [
 export const projectsArr: projectObject[] = [
   {
     name: "Character Portfolio",
-    stack: ["TypeScript", "Node", "Express", "React", "mongoDB", "Jest", "CSS"],
+    stack: ["TypeScript", "Node.js", "Express.js", "React", "mongoDB", "Jest", "CSS"],
     status: "Work In Progress",
     codeURL: "https://github.com/joeglDev/WIP-Character-portfolio",
     liveURL: "https://keen-dodol-db9041.netlify.app/",
@@ -100,7 +100,7 @@ export const projectsArr: projectObject[] = [
   },
   {
     name: "NC news API server",
-    stack: ["JavaScript", "Node", "Express", "Postgres SQL", "Jest"],
+    stack: ["JavaScript", "Node.js", "Express.js", "Postgres SQL", "Jest"],
     status: "Finished",
     codeURL: "https://github.com/joeglDev/Northcoders-backend-project-JsServer",
     liveURL: "",
