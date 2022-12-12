@@ -13,48 +13,57 @@
     font-weight: bold;
     width: 20%;
     height: 4rem;
-    margin:auto auto 2.5vw auto;
+    margin: auto auto 2.5vw auto;
 }
 
 .Project__section__btn:hover {
     background-color: rgb(55, 110, 230);
     color: white;
-} 
+}
 
 .Project__section__grid__container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5vw;
-    grid-template-areas: 
-    "list img img"
-    "list img img"
-    "stack stack stack";
+    grid-template-areas:
+        "list img img"
+        "list img img"
+        "stack stack stack";
 }
-
-.project__grid__item__img {
-    background-color: blue;
-   width: 100%;
-   min-height: 50vh;
-   grid-area: img;
-   position: static;
-   margin-right: 50vw;
-    
-}
-
-
 
 .grid__item__list {
-    max-width: 100%;
-grid-area: list;
+    min-width: 20vw;
+    max-width: 30vw;
+    grid-area: list;
+    list-style: none;
+}
+
+.grid__item__list li {
+    margin-bottom: 2.5vh;
 }
 
 .grid__item__stack__container {
-grid-area: stack;
-display: flex;
+    grid-area: stack;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 
 }
 
 /*image */
+
+.project__grid__item__img {
+    background-color: blue;
+    width: 100%;
+    min-height: 50vh;
+    max-width: 50vw;
+    grid-area: img;
+    position: static;
+    margin-right: 50vw;
+
+}
+
 .project__character {
     background: no-repeat center url(../assets//project_images/character_portfolio.jpg);
     background-size: cover;
@@ -72,18 +81,18 @@ display: flex;
 
 /* Stack */
 .flex__item__li {
-    width: 80%;
+    width: 10vw;
 }
 
 .flex__item__img {
     position: relative;
-    left: 4.5vw;
+    
     width: 40%;
     height: auto;
 }
 
-@media only screen and (max-width: 600px) { 
-    .Project__section__btn  {
+@media only screen and (max-width: 600px) {
+    .Project__section__btn {
         width: 40%;
     }
 
