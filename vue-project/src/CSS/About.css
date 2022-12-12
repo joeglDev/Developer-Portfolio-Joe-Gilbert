@@ -10,8 +10,20 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-areas:
-        "header__intro__h1  header__intro__img "
-        "header__intro__tech header__intro__img ";
+        "heading  img "
+        "tech img ";
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.img {
+    grid-area: img;
+}
+
+.tech {
+    grid-area: tech;
 }
 
 .header__intro__h1 {
