@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue';
 import About from './components/About.vue';
 import TechStack from './components/TechStack.vue';
 import ProjectGrid from './components/ProjectGrid.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import ProjectGrid from './components/ProjectGrid.vue';
     <About></About>
     <TechStack></TechStack>
     <ProjectGrid></ProjectGrid>
+    <Footer></Footer>
 </template>
 
 <style>
