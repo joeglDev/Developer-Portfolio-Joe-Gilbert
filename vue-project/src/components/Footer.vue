@@ -14,6 +14,7 @@
             aria-label="clink link to open my email address in a new tab"
             class="Footer__font-awesome-icon"><font-awesome-icon icon="fa-solid fa-envelope" size="4x" /></a>
     </footer>
+
 </template>
 
 <style>
