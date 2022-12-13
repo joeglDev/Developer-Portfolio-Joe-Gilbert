@@ -30,7 +30,7 @@ const selectProjectProp = (name: string) => {
 
 <template>
     <section id="projects" class="ProjectGrid__section">
-        <h2 class="ProjectGrid__section__h2">My Projects</h2>
+        <h2 class="ProjectGrid__section__h2">Some of my Projects</h2>
         <p class="ProjectGrid__section__p">Click a project for more information</p>
         <Project :imageClass="setProject.imageClass" :name="setProject.name" :status="setProject.status"
             :description="setProject.description" :stack="setProject.stack" 

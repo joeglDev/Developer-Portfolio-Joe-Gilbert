@@ -1,4 +1,16 @@
 .Footer {
     width: 100%;
     background-color: #dcf3ff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+.Footer__font-awesome-icon {
+    color: black;
+}
+
+.Footer__font-awesome-icon:hover {
+    background-color: rgb(55, 110, 230);
+    color: white;
 }
