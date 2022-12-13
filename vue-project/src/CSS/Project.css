@@ -1,8 +1,3 @@
-.Project__section {
-
-    padding: 1vw;
-}
-
 .ProjectGrid__section__h2 {
     font-size: 2vw;
 }
@@ -23,7 +18,7 @@
 
 .Project__section__grid__container {
     display: grid;
-    
+
     grid-gap: 5vw;
     grid-template-areas:
         "list img img"
@@ -40,7 +35,8 @@
 
 .grid__item__list li {
     margin-bottom: 2.5vh;
-    float: center;
+    display: block;
+    text-align: left; 
 }
 
 .grid__item__stack__container {
@@ -49,6 +45,10 @@
     list-style: none;
     align-items: center;
     justify-content: center;
+}
+
+.status {
+    float: left;
 }
 
 /*image */
@@ -84,8 +84,8 @@
 
 .flex__item__img {
     position: relative;
-    width: 40%;
-    height: auto;
+    width: 5vw;
+    height: 5vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -96,7 +96,17 @@
     .Project__section__grid__container {
         display: block;
         grid-template-columns: none;
-        grid-template-rows: 3fr 2fr; 
+        grid-template-rows: 3fr 2fr;
+    }
+
+    .grid__item__stack__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 32%);
+    }
+
+    .flex__item__img {
+        left: 1vw;
+        width: 5vw;
+        height: 10vw;
     }
 }
-

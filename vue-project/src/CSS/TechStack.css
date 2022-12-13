@@ -32,9 +32,9 @@
 
 .grid__item__img {
     position: relative;
-    left: 4.5vw;
-    width: 40%;
-    height: auto;
+    left: 5.25vw;
+    width: 5vw;
+    height: 5vw;
 }
 
 .grid__item__name {
@@ -88,8 +88,10 @@
     }
 
     .grid__item__img {
-        width: 60%;
-        margin-left: 30%;
+        width: 10vw;
+    height: 10vw;
+        position: relative;
+       margin-left: 12.5vw;
         /* this var is causing some out of bounds slippage*/
     }
 

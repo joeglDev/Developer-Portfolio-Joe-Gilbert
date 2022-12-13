@@ -13,7 +13,7 @@ import Email from './components/Email.vue';
     <About></About>
     <TechStack></TechStack>
     <ProjectGrid></ProjectGrid>
-    <Email></Email>
+    <!--<Email></Email>-->
     <Footer></Footer>
 </template>
 

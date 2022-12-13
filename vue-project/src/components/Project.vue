@@ -48,21 +48,23 @@ const removeSection = () => {
 
         <article class="Project__section__grid__container">
             <ul class="grid__item__list list">
-                <li>Name: {{ name }}</li>
+                <li>{{ name }}</li>
+                
                 <li v-if="liveURL !== ''"><a target="_blank" :href="`${liveURL}`">Click here for the live website</a>
                 </li>
-              
+
                 <li><a target="_blank" :href="`${codeURL}`">Click here to view the code on GitHub</a></li>
-                
-                <li class="grid__item__list  status">Status: {{ status }}</li>
+
+                <li class="grid__item__list ">{{ status }}</li>
+
                 <li>{{ description }}</li>
             </ul>
             <div :class="` project__grid__item__img  project__${imageClass}`"></div>
             <ul class="grid__item__stack__container">
                 <li class="flex__item__li" v-for="i in stackObjects">
-                <img class="flex__item__img" v-bind:src="`${i.logoURL}`" v-bind:alt="`${i.name}`">
-                <p class="flex__item__name">{{ i.name }}</p>
-            </li>
+                    <img class="flex__item__img" v-bind:src="`${i.logoURL}`" v-bind:alt="`${i.name}`">
+                    <p class="flex__item__name">{{ i.name }}</p>
+                </li>
             </ul>
 
         </article>
