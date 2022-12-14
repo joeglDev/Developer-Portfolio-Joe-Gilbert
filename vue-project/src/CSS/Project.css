@@ -106,8 +106,15 @@
     }
 
     .flex__item__img {
-        left: 1vw;
+        position: relative;
+        margin: auto;
         width: 5vw;
         height: 10vw;
     }
+
+    .flex__item__name {
+        text-align: center;
+    }
+
+
 }

@@ -1,3 +1,10 @@
+/*
+MOBILE FONT SIZES
+h1: 8vw
+h2: 
+p:
+*/
+
 .header__intro__section {
     margin: 2rem;
     margin-top: 5rem;
@@ -76,8 +83,8 @@
     }
 
     .header__intro__h1 {
-        font-size: 4vw;
-        margin: auto;
+        
+        margin: 10vh auto auto auto;
     }
 
     .header__intro__img {
