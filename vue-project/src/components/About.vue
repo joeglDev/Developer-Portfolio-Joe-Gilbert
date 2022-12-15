@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const funFactsArr = ["My current hair colour is pink.", "I really love the colours of Trans Pennine Express trains (2022).", "Some of my favourite discography by the Japanese pop band 'Perfume' is 'Future Pop' or 'Triangle'.", "I currently have 5 different LGBTQ+ pride flags hung up in my house.", "I'm planning a motorcycling holiday around the north coast of Scotland."];
+const funFactsArr = ["My current hair colour is pink.", "I really love the colours of Trans Pennine Express trains (2022).", "The vast majority of this website was coded whilst listining to the Japanese pop band 'Perfume'.", "I currently have 5 different LGBTQ+ pride flags hung up in my house.", "I'm planning a motorcycling holiday around the north coast of Scotland."];
 
 const changeHeader = (event: Event) => {
     const heading = document.getElementsByClassName("header__intro__h1")[0];
