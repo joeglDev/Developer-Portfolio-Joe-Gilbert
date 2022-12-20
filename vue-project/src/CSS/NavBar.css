@@ -1,12 +1,28 @@
 /*Navigation bar*/
-Nav {
-  top: 0;
-  width: 100%;
-z-index: 500;
-position: fixed;
+
+/* UTILITIES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-Nav ul {
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 500;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dcf3ff;
+  color: black;
+}
+
+.navbar__ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -18,11 +34,7 @@ Nav ul {
   width: 100%;
 }
 
-Nav li {
-  fill: rgb(55, 110, 230);
-}
-
-Nav li a {
+.navbar__a {
   display: inline-block;
   color: black;
   text-align: center;
@@ -32,34 +44,69 @@ Nav li a {
   font-size: 1.2vw;
 }
 
-Nav li a:hover {
+.navbar__a:hover {
+  color: white;
+}
+
+/* NAVBAR MENU */
+
+.navbar__ul__lists {
+  display: flex;
+  flex-direction: center;
+}
+
+.navbar__ul__lists li:hover {
   background-color: rgb(55, 110, 230);
   color: white;
 }
 
-/* Header*/
-.header__intro__section__mobile {
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+display: none;
+}
+
+/*HAMBURGER MENU*/
+
+.navbar__ul__hamburger {
+  user-select: none;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  scale: 2;
   display: none;
 }
 
+/* APPLYING MEDIA QUERIES */
+
 @media only screen and (max-width: 600px) {
 
-  Nav {
-    max-width: 100%;
-    
+  .navbar__ul__lists {
+    margin-top: 5.5vh;
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background-color: #dcf3ff;
   }
 
-  Nav ul {
-    flex-direction: row;
-    position: relative;
-      width: 100%;
+  .navbar__ul__lists li {
+    display: inline-block;
+    width: 100%;
   }
 
-  Nav li a {
-    font-size: 1.65vw;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100% /6;
+  input[type=checkbox]:checked~.navbar__ul__lists {
+    display: block;
+  }
+
+  .navbar__ul__hamburger {
+    display: block;
+  }
+
+  .navbar__a {
+    font-size: 3vw;
   }
 
 }
