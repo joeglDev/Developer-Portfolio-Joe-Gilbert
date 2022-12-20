@@ -1,4 +1,6 @@
 /*Navigation bar*/
+
+/*
 Nav {
   top: 0;
   width: 100%;
@@ -37,7 +39,7 @@ Nav li a:hover {
   color: white;
 }
 
-/* Header*/
+/* Header
 .header__intro__section__mobile {
   display: none;
 }
@@ -62,4 +64,65 @@ Nav li a:hover {
     width: 100% /6;
   }
 
+}
+
+
+/* UTILITIES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 500;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dcf3ff;
+  color: black;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dcf3ff;
+  width: 100%;
+}
+
+.navbar__a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2vw;
+}
+
+.navbar__icon__div {
+  display: none
+}
+
+/* NAVBAR MENU */
+
+.menu {
+  display: flex;
+  flex-direction: center;
+}
+
+.menu li:hover {
+  background-color: rgb(55, 110, 230);
+  color: white;
 }
