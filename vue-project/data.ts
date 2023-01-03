@@ -79,19 +79,20 @@ export const techStackArr: techStackObject[] = [
       "https://www.jetbrains.com/webstorm/guide/static/5fffc5841d0abba2e6684f13fe6d003f/jest.svg",
   },
   {
-    name: "Docker",
-    type: "process",
-    logoURL:
-      "https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png",
-  },
-  {
     name: "C#",
     type: "language",
     logoURL:
       "https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg",
   },
 ];
-
+/*
+{
+    name: "Docker",
+    type: "process",
+    logoURL:
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png",
+  },
+*/
 //{name: '', type: ``, logoURL: ''},
 
 export const projectsArr: projectObject[] = [
