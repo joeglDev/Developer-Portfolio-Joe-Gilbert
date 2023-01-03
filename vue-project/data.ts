@@ -109,7 +109,7 @@ export const projectsArr: projectObject[] = [
     status: "Work In Progress",
     codeURL: "https://github.com/joeglDev/WIP-Character-portfolio",
     liveURL: "https://keen-dodol-db9041.netlify.app/",
-    description: `A React with Typescript full-stack website served by a Node-Express.js API. This service allows a user to display their fictional characters and their unique details to the world. I believe that it will be useful for distict internet communities such as fandoms, D&D players, furries and indy video game developers. `,
+    description: `A React with Typescript full-stack website served by a Node-Express.js API. This service allows a user to display their fictional characters and their unique details to the world. I believe that it will be useful for distict internet communities such as fandoms, D&D players, furries and indy video game developers. The next stage of this project is to enable a proper image upload and request system. To do this I will spin up an object storage server such as a Amazon S3 bucket.`,
     imageClass: "character",
   },
   {
