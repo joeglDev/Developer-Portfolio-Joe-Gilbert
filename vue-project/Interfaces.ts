@@ -11,5 +11,5 @@ export interface projectObject {
     codeURL: string;
     liveURL: string;
     description: string;
-    imageClass: 'character' | `jsServer` | 'portfolio';
+    imageClass: 'character' | `jsServer` | 'portfolio' | 'spaceGame';
 }

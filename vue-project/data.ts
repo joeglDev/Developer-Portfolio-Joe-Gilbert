@@ -84,6 +84,12 @@ export const techStackArr: techStackObject[] = [
     logoURL:
       "https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png",
   },
+  {
+    name: "C#",
+    type: "language",
+    logoURL:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg",
+  },
 ];
 
 //{name: '', type: ``, logoURL: ''},
@@ -91,7 +97,15 @@ export const techStackArr: techStackObject[] = [
 export const projectsArr: projectObject[] = [
   {
     name: "Character Portfolio",
-    stack: ["TypeScript", "Node.js", "Express.js", "React", "mongoDB", "Jest", "CSS"],
+    stack: [
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "React",
+      "mongoDB",
+      "Jest",
+      "CSS",
+    ],
     status: "Work In Progress",
     codeURL: "https://github.com/joeglDev/WIP-Character-portfolio",
     liveURL: "https://keen-dodol-db9041.netlify.app/",
@@ -106,7 +120,7 @@ export const projectsArr: projectObject[] = [
     liveURL: "",
     description:
       "A Node - Express.js API server connecting a Postgres SQL database to a React front-end. This project was created according to the principles of using Test Driven Development in Jest.",
-      imageClass: "jsServer"
+    imageClass: "jsServer",
   },
   {
     name: "My Developer Portfolio",
@@ -116,7 +130,17 @@ export const projectsArr: projectObject[] = [
     liveURL: "",
     description:
       "My Developer Portfolio. I hope that you find it useful! This website was built using TypeScript with the Vue JavaScript framework.",
-      imageClass: "portfolio"
+    imageClass: "portfolio",
+  },
+  {
+    name: "Space Colonisation Sim",
+    stack: ["C#"],
+    status: "Work In Progress",
+    codeURL: "https://github.com/joeglDev/space-colonisation-sim",
+    liveURL: "",
+    description:
+      "A text-based adventure game which models intelligent life's exploration of the cosmos. This game is coded in C# and was created to learn more about coding in C# and using Object Oriented Programming.",
+    imageClass: "spaceGame",
   },
 ];
 

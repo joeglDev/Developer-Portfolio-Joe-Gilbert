@@ -2,6 +2,11 @@
     font-size: 2vw;
 }
 
+.Project__section__h2 {
+    font-size: 2vw;
+    margin-bottom: 4vw;
+}
+
 .Project__section__btn {
     border: none;
     background-color: #EBEBEB;
@@ -75,6 +80,11 @@
 .project__jsServer {
     background: no-repeat center url(../assets//project_images/js_server.png);
     background-size: cover;
+}
+
+.project__spaceGame {
+    background: no-repeat center url(../assets//project_images/spaceGame.jpeg);
+    background-size: 100%;
 }
 
 /* Stack */

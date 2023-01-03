@@ -1,5 +1,12 @@
 <script setup lang="ts">
-
+ /**
+   * Returns number of  subarrays of input array s which conform to length m and reduce to d.
+   *
+   *  @param {Array<number>} s Input array of integers.
+   * @param {number} d Sum of valid sub arrays.
+   * @param {number} m Length of valid sub arrays.
+   * @return {number} count Number of valid sub arrays found.
+   */
 </script>
 
 <template>

@@ -73,6 +73,11 @@
     background-size: 100%;
 }
 
+.spaceGame {
+    background: no-repeat center url(../assets//project_images/spaceGame.jpeg);
+    background-size: 100%;
+}
+
 
 
 @media only screen and (max-width: 600px) {
