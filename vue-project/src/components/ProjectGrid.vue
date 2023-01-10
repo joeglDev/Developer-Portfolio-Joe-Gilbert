@@ -36,8 +36,8 @@ const selectProjectProp = (name: string) => {
             :description="setProject.description" :stack="setProject.stack" 
             :codeURL="setProject.codeURL" :liveURL="setProject.liveURL" :key="setProject.name"></Project>
         <ul class="ProjectGrid__section__grid__container">
-            <li v-bind:class="`ProjectGrid__section__grid__item`" v-bind:aria-label="`Project: ${i.name}`"
-                v-for="i in projectsArr" @click="selectProjectProp(i.name)">
+            <li tabindex=0  v-bind:class="`ProjectGrid__section__grid__item`" v-bind:aria-label="`Project: ${i.name}`"
+                v-for="i in projectsArr" @click="selectProjectProp(i.name)" v-on:keydown.enter="selectProjectProp(i.name)">
                 <div :class="`grid__item__div__image__container ${i.imageClass}`"></div>
                 <p class="grid__item__name">{{ i.name }}</p>
 
