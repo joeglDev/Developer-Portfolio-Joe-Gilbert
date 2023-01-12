@@ -15,6 +15,6 @@ export interface projectObject {
 };
 
 export interface imageObject {
-    src: string;
+    name: string;
     alt: string;
 }
