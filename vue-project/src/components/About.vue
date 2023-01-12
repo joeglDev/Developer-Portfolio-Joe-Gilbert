@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import type { imageObject } from '../../Interfaces';
 
 //data
-const funFactsArr = ["My current hair colour is pink.", "I really love the colours of Trans Pennine Express trains (2022).", "The vast majority of this website was coded whilst listining to the Japanese pop band 'Perfume'.", "I currently have 5 different LGBTQ+ pride flags hung up in my house.", "I'm planning a motorcycling holiday around the north coast of Scotland."];
+const funFactsArr = ["My current hair colour is bleached pink.", "I really love the colours of Trans Pennine Express trains (2022).", "The vast majority of this website was coded whilst listining to the Japanese pop band 'Perfume'.", "I currently have 5 different LGBTQ+ pride flags hung up in my house.", "I'm planning a motorcycling holiday around the north coast of Scotland."];
 const imageArr: imageObject[] = [{ name: "img_1.jpg", alt: "an image of myself on holiday in Murano, Venice, Italy" }, { name: "img_2.jpg", alt: "an image of myself against the lgbtq progress flag. Long straight hair, bleached pink" }];
 
 //states
