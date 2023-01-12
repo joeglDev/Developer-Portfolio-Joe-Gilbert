@@ -12,4 +12,9 @@ export interface projectObject {
     liveURL: string;
     description: string;
     imageClass: 'character' | `jsServer` | 'portfolio' | 'spaceGame';
+};
+
+export interface imageObject {
+    src: string;
+    alt: string;
 }
