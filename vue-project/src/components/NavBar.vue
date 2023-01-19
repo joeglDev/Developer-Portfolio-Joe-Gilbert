@@ -11,7 +11,6 @@ const isNavbarOpen = ref(false);
   * On keydown.enter simulates a mouseclick of id toggle__navbar checkbox in order to allow keyboard opening and closing of mobile navbar.
   */
 const toggleCheckbox = () => {
-    console.log(isNavbarOpen.value)
     const checkbox = document.getElementById('toggle__navbar');
 
     if (isNavbarOpen.value) {
