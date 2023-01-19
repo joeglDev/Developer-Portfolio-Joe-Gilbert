@@ -11,8 +11,12 @@ const headingContent = ref(headingContentArr[0]);
 
 const currentProfileImage = ref(imageArr[0]);
 
+//not a state but local var
+const currentImageIndex = ref(0);
+
 //methods
 const changeHeader = (event: Event) => {
+    //ref.value would have done the job to...
     const currentHeadingIndex = headingContentArr.indexOf(document.getElementsByClassName("header__intro__h1")[0].innerHTML);
     let newHeadingIndex;
     currentHeadingIndex < headingContentArr.length - 1 ? newHeadingIndex = currentHeadingIndex + 1 : newHeadingIndex = 0;
@@ -20,8 +24,8 @@ const changeHeader = (event: Event) => {
 };
 
 const changeProfileImage = (event: Event) => {
-    const newProfileImgage = imageArr[Math.floor(Math.random() * (imageArr.length))];
-    currentProfileImage.value = newProfileImgage;
+    currentImageIndex.value < imageArr.length - 1 ? currentImageIndex.value += 1 : currentImageIndex.value = 0;
+    currentProfileImage.value = imageArr[currentImageIndex.value];
 }
 
 const getImgUrl = (name: string) => {
