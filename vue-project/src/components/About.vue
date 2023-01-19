@@ -3,20 +3,20 @@ import { ref } from 'vue';
 import type { imageObject } from '../../Interfaces';
 
 //data
-const funFactsArr = ["My current hair colour is bleached pink.", "I really love the colours of Trans Pennine Express trains (2022).", "The vast majority of this website was coded whilst listining to the Japanese pop band 'Perfume'.", "I currently have 5 different LGBTQ+ pride flags hung up in my house.", "I'm planning a motorcycling holiday around the north coast of Scotland."];
+const headingContentArr = ["Hi, I'm Joe Gilbert and I'm a full-stack Developer.", "My current hair colour is bleached pink.", "I really love the colours of Trans Pennine Express trains (2022).", "The vast majority of this website was coded whilst listining to the Japanese pop band 'Perfume'.", "I currently have 5 different LGBTQ+ pride flags hung up in my house.", "I'm planning a motorcycling holiday around the north coast of Scotland."];
 const imageArr: imageObject[] = [{ name: "img_1.jpg", alt: "an image of myself on holiday in Murano, Venice, Italy" }, { name: "img_2.jpg", alt: "an image of myself against the lgbtq progress flag. Long straight hair, bleached pink" }];
 
 //states
-const headingContent = ref(`Hi, I'm Joe Gilbert 
-and I'm a full-stack Developer.`);
+const headingContent = ref(headingContentArr[0]);
 
 const currentProfileImage = ref(imageArr[0]);
 
 //methods
 const changeHeader = (event: Event) => {
-    const randomNumber = Math.floor(Math.random() * (funFactsArr.length));
-    const newHeadingContent = funFactsArr[randomNumber];
-    headingContent.value = newHeadingContent;
+    const currentHeadingIndex = headingContentArr.indexOf(document.getElementsByClassName("header__intro__h1")[0].innerHTML);
+    let newHeadingIndex;
+    currentHeadingIndex < headingContentArr.length - 1 ? newHeadingIndex = currentHeadingIndex + 1 : newHeadingIndex = 0;
+    headingContent.value = headingContentArr[newHeadingIndex];
 };
 
 const changeProfileImage = (event: Event) => {
