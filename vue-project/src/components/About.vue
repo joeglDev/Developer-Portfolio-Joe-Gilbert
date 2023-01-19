@@ -42,6 +42,7 @@ const getImgUrl = (name: string) => {
             <div class="header__intro__tech tech">
                 <p>Having worked in academic science and medical diagnostics I thought it was time for a change and so I
                     used my previous experience to dive into the world of web development ^w^</p>
+                    <br>
                 <p>Click the <span class="header__intro__tech__span">above title for a fun fact</span> about myself or
                     scroll <span class="header__intro__tech__span">down to view my tech stack</span> and projects.</p>
             </div>
