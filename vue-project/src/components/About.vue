@@ -11,7 +11,6 @@ const headingContent = ref(headingContentArr[0]);
 
 const currentProfileImage = ref(imageArr[0]);
 
-//not a state but local var
 const currentImageIndex = ref(0);
 
 //methods

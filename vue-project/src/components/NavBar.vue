@@ -1,22 +1,38 @@
 <script setup lang="ts">
- /**
-   * Returns number of  subarrays of input array s which conform to length m and reduce to d.
-   *
-   *  @param {Array<number>} s Input array of integers.
-   * @param {number} d Sum of valid sub arrays.
-   * @param {number} m Length of valid sub arrays.
-   * @return {number} count Number of valid sub arrays found.
-   */
+import { ref } from 'vue';
+
+//states
+/**
+ *  @vue-prop {Boolean} isNavbarOpen - Initial Boolean value of isCheckboxOpen
+ */
+const isNavbarOpen = ref(false);
+
+/**
+  * On keydown.enter simulates a mouseclick of id toggle__navbar checkbox in order to allow keyboard opening and closing of mobile navbar.
+  */
+const toggleCheckbox = () => {
+    console.log(isNavbarOpen.value)
+    const checkbox = document.getElementById('toggle__navbar');
+
+    if (isNavbarOpen.value) {
+        isNavbarOpen.value = false;
+        checkbox?.click();
+    } else if (!isNavbarOpen.value) {
+        isNavbarOpen.value = true;
+        checkbox?.click();
+    }
+};
 </script>
 
 <template>
-  
+
     <nav class="navbar">
         <!-- NAVIGATION MENU -->
         <ul class="navbar__ul">
             <!-- USING CHECKBOX HACK -->
             <input type="checkbox" id="toggle__navbar" />
-            <label aria-label="click to toggle display of nav bar" for="toggle__navbar" class="navbar__ul__hamburger">&#9776;</label>
+            <label v-on:keydown.enter="toggleCheckbox()" tabindex=0 aria-label="click to toggle display of nav bar"
+                for="toggle__navbar" class="navbar__ul__hamburger">&#9776;</label>
 
             <!-- NAVIGATION MENUS -->
 
