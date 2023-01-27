@@ -32,6 +32,12 @@ export const techStackArr: techStackObject[] = [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
   },
   {
+    name: "React-Redux / Redux Tookit",
+    type: `front`,
+    logoURL:
+      "https://commons.wikimedia.org/wiki/File:Redux.png",
+  },
+  {
     name: "Vue",
     type: `front`,
     logoURL:
