@@ -87,6 +87,11 @@
     background-size: 100%;
 }
 
+.project__weather {
+    background: no-repeat center url(../assets//project_images/weather.png);
+    background-size: 100%;
+}
+
 /* Stack */
 .flex__item__li {
     width: 10vw;

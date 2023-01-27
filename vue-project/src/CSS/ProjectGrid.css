@@ -78,6 +78,11 @@
     background-size: 100%;
 }
 
+.weather {
+    background: no-repeat center url(../assets//project_images/weather.png);
+    background-size: 100%;
+}
+
 
 
 @media only screen and (max-width: 600px) {
