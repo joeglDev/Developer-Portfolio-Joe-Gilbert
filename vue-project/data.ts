@@ -35,7 +35,7 @@ export const techStackArr: techStackObject[] = [
     name: "React-Redux / Redux Tookit",
     type: `front`,
     logoURL:
-      "https://commons.wikimedia.org/wiki/File:Redux.png",
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
   },
   {
     name: "Vue",
@@ -148,6 +148,16 @@ export const projectsArr: projectObject[] = [
     description:
       "A text-based adventure game which models intelligent life's exploration of the cosmos. This game is coded in C# and was created to learn more about coding in C# and using Object Oriented Programming.",
     imageClass: "spaceGame",
+  },
+  {
+    name: "Redux Weather Dashboard",
+    stack: ["TypeScript", "React", "React-Redux / Redux Tookit", "CSS"],
+    status: "Work In Progress",
+    codeURL: "https://github.com/joeglDev/redux-weather-app",
+    liveURL: "",
+    description:
+      "A dashboard showing the weather forecast for a selected location. Built using React Redux in order to assign dynamic states to a centralised store. This app improves upon one of my first coding projects by replacing vanilla JS HTML with a React Redux solution.",
+    imageClass: "weather",
   },
 ];
 
