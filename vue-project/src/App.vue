@@ -4,7 +4,8 @@ import About from './components/About.vue';
 import TechStack from './components/TechStack.vue';
 import ProjectGrid from './components/ProjectGrid.vue';
 import Footer from './components/Footer.vue';
-import Email from './components/Email.vue';
+import Career from './components/Career.vue';
+//import Email from './components/Email.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Email from './components/Email.vue';
     <About></About>
     <TechStack></TechStack>
     <ProjectGrid></ProjectGrid>
+    <Career></Career>
     <!--<Email></Email>-->
     <Footer></Footer>
 </template>
