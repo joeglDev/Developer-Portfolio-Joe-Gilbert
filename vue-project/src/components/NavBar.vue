@@ -40,6 +40,7 @@ const toggleCheckbox = () => {
                 <li><a class="navbar__a" href="#about">About</a></li>
                 <li><a class="navbar__a" href="#tech">Technologies</a></li>
                 <li><a class="navbar__a" href="#projects">My projects</a></li>
+                <li><a class="navbar__a" href="#maps">Fun maps!</a></li>
                 <li><a class="navbar__a" href="#contact">Contact</a></li>
                 <li><a class="navbar__a" target="_blank"
                         href="https://www.dropbox.com/s/x2in4iz3di30gej/2022-11-CV-JG-V12.pdf?dl=0"
