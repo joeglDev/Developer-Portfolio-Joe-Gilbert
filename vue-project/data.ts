@@ -34,8 +34,7 @@ export const techStackArr: techStackObject[] = [
   {
     name: "React-Redux / Redux Tookit",
     type: `front`,
-    logoURL:
-      "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
+    logoURL: "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
   },
   {
     name: "Vue",
@@ -85,10 +84,27 @@ export const techStackArr: techStackObject[] = [
       "https://www.jetbrains.com/webstorm/guide/static/5fffc5841d0abba2e6684f13fe6d003f/jest.svg",
   },
   {
+    name: "Cypress",
+    type: `testing`,
+    logoURL: "https://www.cypress.io/cypress_logo_social.png",
+  },
+  {
     name: "C#",
     type: "language",
     logoURL:
       "https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg",
+  },
+  {
+    name: "Azure Dev OPs",
+    type: "process",
+    logoURL:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/Azure.png",
+  },
+  {
+    name: "Git",
+    type: "process",
+    logoURL:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
   },
 ];
 /*
